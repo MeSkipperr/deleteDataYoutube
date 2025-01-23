@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const cron = require('node-cron');
 
-const adbPath = '"C:\\Users\\I KADEK YOLA ANDIKA\\Downloads\\platform-tools-latest-windows\\platform-tools\\adb.exe"';
+const adbPath = '""';
 const youtubePackage = 'com.google.android.youtube.tv';
 
 // Fungsi untuk menjalankan perintah ADB
